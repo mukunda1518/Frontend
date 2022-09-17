@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.main-heading {
+    color: blue;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.paragraph {
+    color: grey;
+}
+
+.bg-container {
+    background-image: url("https://img.freepik.com/free-photo/aerial-view-kelingking-beach-nusa-penida-island-bali-indonesia_335224-309.jpg?w=1380&t=st=1652417034~exp=1652417634~hmac=0170a64bb862b0e8f8d96d54948f4141a499828fa80233517ddbb014d8074eb9");
+    height: 100vh;
+    background-size: cover;
+}
+
+.card1 {
+    background-color: white;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px;
+}
+
+.button {
+    height: 36px;
+    width: 138px;
+    background-color: #c3f5d2;
+    color: rgb(189, 70, 70);
+    border-radius: 20px;
+    border-width: 0px;
+}

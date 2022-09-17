@@ -1,0 +1,45 @@
+.page-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.page-navbar{
+    background-color: black;
+    font-family: "Roboto";
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+}
+body {
+    margin: 0px;
+}
+
+.content {
+    background-color: lightblue;
+    font-family: "Roboto";
+    font-size: 18px;
+    padding: 20px;
+    flex-grow: 1;
+    overflow-y: scroll;
+}
+.footer {
+    background-color: black;
+    font-family: "Roboto";
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+}
+
+.page-body {
+    display: flex;
+    overflow: auto;
+}
+
+.sidebar {
+    width: 250px;
+    font-family: "Roboto";
+    font-size: 18px;
+    background-color: lightgrey;
+    padding: 20px;
+    flex-shrink: 1;
+}

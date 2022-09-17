@@ -1,0 +1,47 @@
+.heading {
+    color: blue;
+  }
+
+@media print {
+    .heading {
+        color: green;
+    }
+}
+
+@media (width: 800px) {
+    .bg-container {
+        background-color: rgb(230, 148, 205);
+    }
+}
+
+@media (max-width: 799px) {
+    .bg-container {
+        background-color: rgb(231, 231, 122);
+    }
+}
+
+@media (min-width: 801px) {
+    .bg-container {
+        background-color: rgb(93, 145, 212);
+    }
+}
+
+@media not screen and (orientation: landscape) {
+    .bg-container {
+        background-color: rgb(217, 86, 47);
+    }
+}
+
+
+@media (orientation: landscape), (min-width: 600px) {
+    .bg-container {
+        background-color: rgb(192, 196, 209);
+    }
+}
+
+
+@media screen and (min-width: 600px) {
+    .bg-container {
+        background-color:  rgb(233, 200, 188);
+    }
+}
